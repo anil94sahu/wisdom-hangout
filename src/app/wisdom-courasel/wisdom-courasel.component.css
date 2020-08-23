@@ -1,0 +1,69 @@
+* {
+    font: 20px 'Poppins', sans-serif;
+    color: black;
+    padding: 0px 12px;
+    ;
+}
+
+.container-fluid {
+    padding: 4% 0px;
+}
+
+h1 {
+    font: 50px 'Oswald', sans-serif;
+    ;
+}
+
+.wisdom-video-tab p {
+    font-weight: 600 !important;
+}
+
+.wisdom-video-tab video {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    text-align: left;
+}
+
+.wisdom-gallery-tab .container {
+    position: relative;
+    width: 50%;
+    margin: 20px;
+}
+
+.wisdom-gallery-tab .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+.wisdom-gallery-tab .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.wisdom-gallery-tab .container:hover .image {
+    opacity: 0.3;
+}
+
+.wisdom-gallery-tab .container:hover .middle {
+    opacity: 1;
+}
+
+.wisdom-gallery-tab .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
